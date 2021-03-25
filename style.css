@@ -80,7 +80,8 @@ header {
 }
 
 .nav-button:hover {
-    text-decoration: underline;
+    background-color: white;
+    color: red;
 }
 
 .landing-page {
@@ -129,6 +130,10 @@ legend {
     font-size: 18px;
     color: #696871;
     font-weight: 550;
+}
+
+select{
+    background-color: white;    
 }
 
 .form-control {
@@ -208,6 +213,11 @@ legend {
     border: none;
     color: white;
     background-color: blue;
+}
+
+.play-btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px gold;
 }
 
 .omega-list {
@@ -340,7 +350,8 @@ legend {
 }
 
 .users-link:hover {
-    text-decoration: underline;
+    background-color: white;
+    color: red;
 }
 
 .users-images {
@@ -440,7 +451,8 @@ legend {
 }
 
 .access-link:hover {
-    text-decoration: underline;
+    background-color: white;
+    color: red;
 }
 
 
@@ -743,6 +755,7 @@ legend {
         padding: 10px 15px;
         font-size: 16px;
     }
+    
 
     .access-link{
         padding: 10px;
@@ -840,6 +853,10 @@ legend {
 
     .bar-menu{
         display: inline-block;
+    }
+
+    .bar-menu:hover{
+        cursor: pointer;
     }
 
     .everything-text{
